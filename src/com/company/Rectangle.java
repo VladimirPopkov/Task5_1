@@ -1,8 +1,12 @@
 package com.company;
 
 public class Rectangle extends Figure {
-    @Override
-    void square() {
 
+    private int width;
+    private int height;
+
+    @Override
+    double square() {
+        return width * height;
     }
 }

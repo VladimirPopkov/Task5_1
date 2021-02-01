@@ -2,9 +2,9 @@ package com.company;
 
 public abstract class Figure {
 
-    private float x, y;
+    private double x, y;
 
-    abstract void square();
+    abstract double square();
 
     Quadrant getQuadrant(){
         return null;
